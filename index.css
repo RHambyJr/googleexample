@@ -1,0 +1,109 @@
+@import	"./reset.css";
+
+.menu, .main, .footer {
+	display: flex;
+}
+
+.menu, .footer {
+	height: 5vh;
+	align-items: center;
+}
+
+.footer {
+	background-color: #DADADA;
+	border-top: 1px solid #CBCBCB;
+}
+
+.main {
+	height: 90vh;
+	flex-direction: column;
+}
+
+.l_menu, .r_menu {
+	display: flex;
+}
+
+.l_menu {
+	flex: 2;
+	justify-content: flex-start;
+}
+
+.r_menu {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.left, .right {
+	flex: 1;
+}
+
+.btns {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+form, img {
+	margin: 0 auto;
+}
+
+img {
+	margin-top: 5vh;
+	margin-bottom: 1vh;
+}
+
+form {
+	margin-top: 1vh;
+}
+
+ul {
+	display: flex;
+}
+
+li, a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+input {
+	display: block;
+	max-width: 600px;
+	width: 50vw;
+	-webkit-box-shadow: 10px 7px 30px -4px rgba(133,133,133,1);
+	-moz-box-shadow: 10px 7px 30px -4px rgba(133,133,133,1);
+	box-shadow: 10px 7px 30px -4px rgba(133,133,133,1);
+	border: 1px solid gray;
+}
+
+a {
+	padding: 0 20px;
+	color: #4f4f4f;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+a, button {
+	font-family: Georgia;
+}
+
+i {
+	font-size: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	border: none;
+	border-radius: 2%;
+	height: 40px;
+	width: 130px;
+	display: inline-block;
+	font-weight: bold;
+	background-color: #DADADA;
+}
